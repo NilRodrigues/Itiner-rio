@@ -58,6 +58,7 @@ p {
 
 strong {
     color: var(--cinza);
+    font-size: 1.5rem;
 }
 
 #codigo {
@@ -90,3 +91,4 @@ img {
   margin: 0 auto;
 
 }
+

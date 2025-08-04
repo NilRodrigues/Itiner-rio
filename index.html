@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itinerário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="LOGOTRANSMIMO2012 (2).png" alt="Logo da Transmimo">
+    <h2>Selecione sua filial e sua linha</h2>
+    <div class="container">
+        <div>
+            <label for="filial">Filial:</label>
+            <select id="filial" onchange="carregarDados()"></select>
+        </div>
+
+        <div>
+            <label for="linha">Linha:</label>
+            <select id="linha" onchange="mostrarCodigo()">
+                <option value="">-- Selecione uma linha --</option>
+            </select>
+        </div>
+
+        <p><strong>Código:</strong> <span id="codigo"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

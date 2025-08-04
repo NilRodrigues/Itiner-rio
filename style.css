@@ -92,3 +92,21 @@ img {
 
 }
 
+.flexbox-topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto 1rem;
+}
+
+.titulo-flex {
+    background-color: var(--azul-medio);
+    color: var(--cinza);
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    text-align: center;
+}
+

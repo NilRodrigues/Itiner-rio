@@ -63,6 +63,7 @@ strong {
 #codigo {
     color: #ffffff;
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 @media (max-width: 600px) {
@@ -87,4 +88,5 @@ img {
   width: 200px;
   display: block;
   margin: 0 auto;
+
 }

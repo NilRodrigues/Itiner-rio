@@ -14,6 +14,12 @@ body {
     padding: 1rem;
 }
 
+h1 {   
+    text-align: center;
+    color: var(--branco);
+    margin-bottom: 3rem
+}
+
 h2 {
     text-align: center;
     color: var(--branco);
@@ -34,16 +40,17 @@ label {
     margin-bottom: 0.5rem;
     font-weight: bold;
     color: var(--cinza);
+    font-size: 1.3rem; /* Aumentado */
 }
 
 select {
     width: 100%;
-    padding: 0.6rem;
+    padding: 0.8rem;
     border-radius: 8px;
     border: none;
     background-color: var(--azul-claro);
     color: var(--branco);
-    font-size: 1rem;
+    font-size: 1.3rem; /* Aumentado */
     margin-bottom: 1.5rem;
 }
 
@@ -52,7 +59,7 @@ select:focus {
 }
 
 p {
-    font-size: 1.1rem;
+    font-size: 1.3rem; /* Aumentado */
     text-align: center;
 }
 
@@ -64,14 +71,18 @@ strong {
 #codigo {
     color: #ffffff;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* Aumente conforme desejar */
 }
+
+
 
 @media (max-width: 600px) {
     .container {
         padding: 1rem;
     }
 
+
+    
     h2 {
         font-size: 1.3rem;
     }
@@ -85,11 +96,11 @@ strong {
     }
 }
 
-img {
+.logo-baixo {
   width: 200px;
   display: block;
-  margin: 0 auto;
-
+  margin: 4rem auto 0; /* Centraliza e dá espaço acima */
+  position: relative;
 }
 
 .flexbox-topo {
@@ -109,4 +120,3 @@ img {
     box-shadow: 0 2px 8px rgba(0,0,0,0.3);
     text-align: center;
 }
-

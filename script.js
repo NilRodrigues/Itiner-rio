@@ -3,7 +3,7 @@ const SPREADSHEET_ID = '2PACX-1vRS_Bl9a5lIxzjh59OdIZAWrLQf1pXCJHYNChCDkUdytCPTSc
 const filiais = {
     'Valinhos': '0', 
     'Lucas do Rio Verde': '204255522',
-    'Itapira Urbano': '32098118246', 
+    'Itapira Urbano': '2098118246', 
     'Cajati': '394115207', 
     'Birigui': '551093153',
     'Jatai Urbano': '1978942762', 
@@ -65,4 +65,5 @@ function mostrarCodigo() {
     } else {
         codigoSpan.textContent = "";
     }
+
 }
